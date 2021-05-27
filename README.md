@@ -2,11 +2,10 @@
 
 This repository store the Xcode template.
 
-# Getting Start
 
----
+## Getting Start
 
-install the template
+install templates
 
 ```makefile
 $ make
