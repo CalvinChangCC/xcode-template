@@ -4,6 +4,7 @@ TEMPLATE_PATH = ~/Library/Developer/Xcode/Templates/Composable\ Architecture
 
 install_template:
 	@echo "Start install all the templates..."
+	@rm -rf ${TEMPLATE_PATH}
 	@mkdir -p ${TEMPLATE_PATH}
 	@cp -r Templates/* ${TEMPLATE_PATH}
 	@echo "Done ✅"
