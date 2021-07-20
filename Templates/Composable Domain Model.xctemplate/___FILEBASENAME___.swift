@@ -17,7 +17,8 @@ enum ___FILEBASENAME___ {
   // MARK: - Reducer
   static let reducer = Reducer<State, Action, Environment> { state, action, environment in
     switch action {
-    default: return .none
+    default: break
     }
+    return .none
   }
 }
