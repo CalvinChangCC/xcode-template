@@ -2,16 +2,19 @@ import SwiftUI
 import ComposableArchitecture
 
 struct ___FILEBASENAME___: View {
+  private typealias State = ___VARIABLE_productName___.State
+  private typealias Action = ___VARIABLE_productName___.Action
+
   struct ViewState: Equatable {
     init(state: ___VARIABLE_productName___.State) {
     }
   }
 
-  @ObservedObject var viewStore: ViewStore<ViewState, ___VARIABLE_productName___.Action>
+  @ObservedObject var viewStore: ViewStore<ViewState, Action>
 
-  let store: Store<___VARIABLE_productName___.State, ___VARIABLE_productName___.Action>
+  let store: Store<State, Action>
 
-  init(store: Store<___VARIABLE_productName___.State, ___VARIABLE_productName___.Action>) {
+  init(store: Store<State, Action>) {
     self.store = store
     viewStore = ViewStore(store.scope(state: ViewState.init(state:)))
   }
