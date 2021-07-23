@@ -2,8 +2,8 @@ import SwiftUI
 import ComposableArchitecture
 
 struct ___FILEBASENAME___: View {
-  private typealias State = ___VARIABLE_productName___.State
-  private typealias Action = ___VARIABLE_productName___.Action
+  typealias State = ___VARIABLE_productName___.State
+  typealias Action = ___VARIABLE_productName___.Action
 
   struct ViewState: Equatable {
     init(state: ___VARIABLE_productName___.State) {
