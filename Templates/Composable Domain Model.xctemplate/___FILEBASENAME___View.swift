@@ -6,7 +6,7 @@ struct ___FILEBASENAME___: View {
   typealias Action = ___VARIABLE_productName___.Action
 
   struct ViewState: Equatable {
-    init(state: ___VARIABLE_productName___.State) {
+    init(state: State) {
     }
   }
 
@@ -26,14 +26,14 @@ struct ___FILEBASENAME___: View {
 
 #if DEBUG
 struct ___FILEBASENAME____Previews: PreviewProvider {
-    static var previews: some View {
-        ___FILEBASENAME___(store: store)
-    }
+  static var previews: some View {
+      ___FILEBASENAME___(store: store)
+  }
 
-    static let store = Store(
-        initialState: .init(),
-        reducer: ___VARIABLE_productName___.reducer,
-        environment: .init()
-    )
+  static let store = Store(
+    initialState: .init(),
+    reducer: ___VARIABLE_productName___.reducer,
+    environment: .init()
+  )
 }
 #endif
