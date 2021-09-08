@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SupportsSwiftPackage</key>
+	<true/>
+	<key>Description</key>
+	<string>A GraphQL document for parsing</string>
+	<key>Summary</key>
+	<string>A GraphQL document for parsing</string>
+	<key>Kind</key>
+	<string>Xcode.IDEFoundation.TextSubstitutionFileTemplateKind</string>
+	<key>Name</key>
+	<string>Empty</string>
+	<key>MainTemplateFile</key>
+	<string>___FILENAME___.graphql</string>
+	<key>DefaultCompletionName</key>
+	<string>File</string>
+	<key>SortOrder</key>
+	<integer>1</integer>
+</dict>
+</plist>
