@@ -1,6 +1,6 @@
 .DEFAULT_GOAL := install_template
 
-TEMPLATE_PATH = ~/Library/Developer/Xcode/Templates/Composable\ Architecture
+TEMPLATE_PATH = ~/Library/Developer/Xcode/Templates/
 
 install_template:
 	@echo "Start install all the templates..."
