@@ -32,7 +32,7 @@ struct ___FILEBASENAME____Previews: PreviewProvider {
 
   static let store = Store(
     initialState: .init(),
-    reducer: ___VARIABLE_productName___.reducer,
+    reducer: ___VARIABLE_productName___.makeReducer(),
     environment: .init()
   )
 }

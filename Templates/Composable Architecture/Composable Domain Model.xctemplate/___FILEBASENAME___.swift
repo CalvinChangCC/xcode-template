@@ -15,10 +15,13 @@ enum ___FILEBASENAME___ {
   }
 
   // MARK: - Reducer
-  static let reducer = Reducer<State, Action, Environment> { state, action, environment in
-    switch action {
-    default: break
+  typealias ReducerType = Reducer<State, Action, Environment>
+  static func makeReducer() -> ReducerType {
+    .init { state, action, environment in
+      switch action {
+      default: break
+      }
+      return .none
     }
-    return .none
   }
 }
